@@ -1,0 +1,19 @@
+/* Exercício 2
+Crie uma imagem com um link que tenha
+comportamentos diferentes quando visitado
+e quando o cursor está sobre a imagem
+*/
+.imagem{
+  background: url(imagens/gato2.JPG);
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  transition: background 300ms;
+}
+
+.imagem:hover{
+  background-position: 0px 200px;
+  
+  
+}

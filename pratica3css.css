@@ -1,0 +1,25 @@
+/* Exercício 3
+Crie uma lista com marcadores
+personalizados e uma cor de fundo diferente
+para itens em posições pares e ímpares
+*/
+.alt{
+  list-style-type:square;
+  font-size: 20px;
+  color:midnightblue;
+  background-color: gold;
+  width: fit-content;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.alt li:nth-child(odd){
+  background-color: goldenrod;
+}
+
+.alt li:nth-child(even){
+  background-color:lightcoral;
+}
+
+  .alt li:hover{
+    font-weight: bold;
+  }
